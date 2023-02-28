@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 400px;
+    background-color: #84e8ff;
+    margin: 20px auto;
+}
+
+.timer {
+    font-size: 22px;
+    color: #fffb71;
+    text-shadow: 0 0 10px #3990f9;
+}
+.btns {
+    display: flex;
+}
+button {
+    background-color: #fffb71;
+    color: #3990f9;
+    width: 100px;
+    height: 20px;
+    column-gap: 20px;
+    margin: 0 20px;
+    border-radius: 3px;
+    border-color: #3990f9;
+}
+.wrapper-timeLine {
+    margin-top: 20px;
+    width: 600px;
+    border: 2px solid #3990f9;
+    border-radius: 5px;
+}
+.timeLine {
+    height: 40px;
+    background-color: #fffb71;
+    transition: all;
+}
